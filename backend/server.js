@@ -24,7 +24,7 @@ let userList = [
     {
         userName: "sample master",
     },
-];
+]; 
 
 const server = createServer((req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");

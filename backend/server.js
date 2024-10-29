@@ -6,6 +6,12 @@ let userList = [
     {
         userName: "Ajmal",
     },
+    { 
+        userName: "Ajmal 3",
+    },
+    {
+        userName: "Ajmal new",
+    },
     {
         userName: "Fuad",
     },
@@ -24,7 +30,10 @@ let userList = [
     {
         userName: "sample new",
     },
-];
+    {
+        userName: "sample master last",
+    },
+]; 
 
 const server = createServer((req, res) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
